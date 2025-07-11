@@ -1,0 +1,32 @@
+# BỎ FILE MODEL NẶNG (nhưng giữ code)
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.ckpt
+*.pkl
+
+# BỎ FILE NÉN
+*.zip
+*.rar
+*.tar
+*.7z
+*.gz
+
+# BỎ DATA VÀ THƯ MỤC NẶNG (nhưng không bỏ models/ code)
+# models/  # Commented out để giữ Python code
+checkpoints/
+data/
+downloads/
+
+# BỎ VIDEO/AUDIO
+*.mp4
+*.mp3
+*.wav
+*.mov
+*.avi
+
+# FILE TẠM
+*.log
+__pycache__/
+*.tmp

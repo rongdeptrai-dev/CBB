@@ -1,0 +1,53 @@
+# ========== Core Framework ==========
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.7  # For PostgreSQL (optional)
+
+# ========== AI & ML Libraries (GPU Optimized for G4dn.xlarge) ==========
+# PyTorch with CUDA support (install manually: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118)
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# HuggingFace Transformers with GPU acceleration
+transformers==4.36.0
+accelerate==0.25.0
+bitsandbytes==0.41.3
+datasets==2.14.0
+tokenizers==0.15.0
+
+# Model-specific dependencies
+sentencepiece==0.1.99
+protobuf==4.25.0
+
+# Sentence embeddings for Vietnamese
+sentence-transformers==2.2.2
+
+# Legacy Llama support (fallback)
+llama-cpp-python==0.2.11
+
+# Vector Database
+pinecone-client==2.2.4
+
+# Knowledge Graph
+neo4j==5.13.0
+
+# Environment and config
+python-dotenv==1.0.0
+
+# HTTP requests
+requests==2.31.0
+
+# System monitoring
+psutil==5.9.6
+
+# Vietnamese language processing (enhanced for natural conversations)
+underthesea==6.7.0
+pyvi==0.1.1
+
+# Additional utilities for better text processing
+numpy==1.24.3
+pandas==2.1.1
+regex==2023.10.3
